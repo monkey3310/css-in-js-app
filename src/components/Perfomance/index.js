@@ -51,6 +51,7 @@ class Perfomance extends Component {
       });
 
       // using innerHTML to prevet re-render if use setState
+
       if (this.animationEl) {
         let prefix = '';
 
@@ -97,7 +98,7 @@ class Perfomance extends Component {
       this.noStylesEl.style.display = 'block';
     }
 
-    // this.onAnimationStart();
+    this.onAnimationStart();
   }
 
   render() {

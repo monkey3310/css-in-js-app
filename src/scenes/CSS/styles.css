@@ -1,0 +1,49 @@
+.primary {
+  min-width: 16px;
+  height: 16px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  font-weight: bold;
+}
+.primary:hover {
+    background-color: black;
+    color: white;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+.bg-red {
+    background-color: red;
+}
+
+.border-1 {
+    border: 3px solid #000 !important;
+    border-radius: 18px;
+}
+
+.border-2 {
+    border: 6px solid #000 !important;
+    border-radius: 36px;
+}
+
+.border-3 {
+    border: 9px solid #000 !important;
+    border-radius: 54px;
+}
+
+.primary-animation {
+    animation: test 1s;
+}
+
+@keyframes test {
+    from {
+        color: red;
+      }
+    
+      to {
+        color: blue;
+      }
+}

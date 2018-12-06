@@ -11,6 +11,8 @@ import Fela from './scenes/Fela';
 
 import StyledComponents from './scenes/StyledComponents';
 
+import CSS from './scenes/CSS';
+
 import Menu from './components/Menu';
 
 import './index.css';
@@ -26,6 +28,7 @@ render(
         <Route exact path="/react-jss" component={ReactJss} />
         <Route exact path="/react-fela" component={Fela} />
         <Route exact path="/styled-components" component={StyledComponents} />
+        <Route exact path="/css" component={CSS} />
       </Switch>
     </HashRouter>
   </div>,

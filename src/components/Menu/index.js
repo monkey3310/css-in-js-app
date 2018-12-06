@@ -37,6 +37,11 @@ const Menu = ({ props }) => {
             Styled Components
           </a>
         </li>
+        <li className="nav-item">
+          <a className="nav-item-link" href="#/css">
+            CSS
+          </a>
+        </li>
       </ul>
     </nav>
   );
