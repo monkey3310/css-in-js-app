@@ -23,75 +23,18 @@ const Menu = ({ props }) => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-item-link" href="#/emotion">
-            Emotion
+          <a className="nav-item-link" href="#/react-fela">
+            React Fela
           </a>
         </li>
         <li className="nav-item">
-          <span className="nav-item-link">Fela</span>
-
-          <ul className="nav-inner">
-            <li className="nav-item">
-              <a className="nav-item-link" href="#/react-fela">
-                React Fela
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-item-link" href="#/react-fela-monolithic">
-                React Fela Monolithic
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-item-link" href="#/glamor">
-            Glamor
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-item-link" href="#/glamorous">
-            Glamorous
-          </a>
-        </li>
-        <li className="nav-item">
-          <span className="nav-item-link">JSS</span>
-
-          <ul className="nav-inner">
-            <li className="nav-item">
-              <a className="nav-item-link" href="#/react-jss">
-                React Jss
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-item-link" href="#/react-jss-wihtout-plugins">
-                React Jss With Only Compose
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-item-link" href="#/styled-js">
-                Styled Js
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-item-link" href="#/rockey-react">
-            Rockey
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-item-link" href="#/styletron">
-            Styletron
+          <a className="nav-item-link" href="#/react-jss">
+            React Jss
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-item-link" href="#/styled-components">
             Styled Components
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-item-link" href="#/react-inline">
-            React inline
           </a>
         </li>
       </ul>

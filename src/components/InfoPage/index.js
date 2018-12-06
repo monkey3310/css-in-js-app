@@ -10,15 +10,15 @@ export default () => (
           target="_blank"
           rel="noopener noreferrer"
           className="repo-link"
-          href="https://github.com/tuchk4/css-in-js-app"
+          href="https://github.com/monkey3310/css-in-js-app"
         >
-          tuchk4/css-in-js-app
+          monkey3310/css-in-js-app
         </a>
       </div>
       <p>
-        This is not the real benchmark but it shows the differents between CSS
-        in JS libraries under the same conditions. Accent was made on dynamic
-        CSS that depends on component's props.
+        Differents between CSS-in-JS libraries under the same conditions. Accent
+        was made on dynamic CSS that depends on component's props. native css
+        was made without props dependency.
       </p>
       <p className="highlite">
         All libraries are used with React. So resulted time also includes React
